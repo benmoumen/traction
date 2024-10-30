@@ -65,7 +65,7 @@ build_docker_images() {
   fi
 
   built_services="traction-acapy-image-builder tenant-ui tenant-proxy endorser-api endorser-api-1"
-  pulled_services="ngrok-traction-agent traction-db endorser-db endorser-db-1 maildev endorser-agent endorser-agent-1"
+  pulled_services="traction-db endorser-db endorser-db-1 maildev endorser-agent endorser-agent-1"
   $compose_cmd build $built_services --no-cache --parallel
   $compose_cmd pull $pulled_services
 }
