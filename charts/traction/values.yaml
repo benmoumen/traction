@@ -127,8 +127,8 @@ acapy:
     preserve-exchange-records: true
     public-invites: true
     read-only-ledger: false
-    tails-server-base-url: https://tails-test.vonx.io
-    tails-server-upload-url: https://tails-test.vonx.io
+    tails-server-base-url: https://tails.govchain.technology
+    tails-server-upload-url: https://tails.govchain.technology
     wallet-name: askar-wallet
     wallet-storage-type: postgres_storage
     wallet-type: askar
@@ -137,12 +137,12 @@ acapy:
   ## @param acapy.ledgers.yml [object] YAML configuration for connecting to multiple HyperLedger
   ##
   ledgers.yml:
-    - id: bcovrin-test
+    - id: unctad-indy-test
       is_production: true
       is_write: true
-      genesis_url: "http://test.bcovrin.vonx.io/genesis"
-      endorser_did: "DfQetNSm7gGEHuzfUvpfPn"
-      endorser_alias: "bcovrin-test-endorser"
+      genesis_url: 'https://indy.govchain.technology/genesis'
+      endorser_did: 'FUUQBjkZQT2DStLLwsZLYm'
+      endorser_alias: 'unctad-indy-test-endorser'
 
   ## @section Wallet Storage configuration
   ##  Specifies the storage configuration to use for the wallet.
@@ -247,10 +247,10 @@ acapy:
         print_key: false
         print_token: false
         connect_to_endorser:
-          - endorser_alias: bcovrin-test-endorser
-            ledger_id: bcovrin-test
+          - endorser_alias: unctad-indy-test-endorser
+            ledger_id: unctad-indy-test
         create_public_did:
-          - bcovrin-test
+          - unctad-indy-test
       reservation:
         expiry_minutes: 2880
         auto_approve: false

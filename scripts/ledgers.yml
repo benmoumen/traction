@@ -1,12 +1,12 @@
-- id: bcovrin-test
+- id: unctad-indy-test
   is_production: true
   is_write: true
-  genesis_url: 'http://test.bcovrin.vonx.io/genesis'
-  endorser_did: 'SVfHGCEEvEFmpBPcxgNqRR'
-  endorser_alias: 'bcovrin-test-endorser'
-- id: bcovrin-test-1
+  genesis_url: 'https://indy.govchain.technology/genesis'
+  endorser_did: 'FUUQBjkZQT2DStLLwsZLYm'
+  endorser_alias: 'unctad-indy-test-endorser'
+- id: unctad-indy-test-1
   is_production: true
   is_write: true
-  genesis_url: 'http://test.bcovrin.vonx.io/genesis'
-  endorser_did: 'SVfHGCEEvEFmpBPcxgNqRR'
-  endorser_alias: 'bcovrin-test-endorser-1'
+  genesis_url: 'https://indy.govchain.technology/genesis'
+  endorser_did: 'AybM4zvyhLu58MNUuVxie'
+  endorser_alias: 'unctad-indy-test-endorser-1'

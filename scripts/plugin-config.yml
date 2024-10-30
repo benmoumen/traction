@@ -12,20 +12,20 @@ traction_innkeeper:
   innkeeper_wallet:
     tenant_id: innkeeper
     wallet_name: traction_innkeeper
-    wallet_key: change-me
+    wallet_key: cf6cee8a12a63b1c02d99e5e725faf6563ca6d54e17022e93a3e4e4da8048630
     print_key: true
     print_token: true
     connect_to_endorser: [
       {
-        "endorser_alias": "bcovrin-test-endorser",
-        "ledger_id": "bcovrin-test",
+        "endorser_alias": "unctad-indy-test-endorser",
+        "ledger_id": "unctad-indy-test",
       },
       {
-        "endorser_alias": "bcovrin-test-endorser-1",
-        "ledger_id": "bcovrin-test-1",
+        "endorser_alias": "unctad-indy-test-endorser-1",
+        "ledger_id": "unctad-indy-test-1",
       }
     ]
-    create_public_did: ["bcovrin-test", "bcovrin-test-1"]
+    create_public_did: ["unctad-indy-test", "unctad-indy-test-1"]
   reservation:
     auto_approve: true
     expiry_minutes: 2880

@@ -50,7 +50,7 @@ plugin-config-value:
 # invite-label: ACA-Py (Traction Plugins)
 
 #config 
-genesis-url: http://test.bcovrin.vonx.io/genesis
+genesis-url: https://indy.govchain.technology/genesis
 
 # wallet-type: indy
 wallet-type: askar
