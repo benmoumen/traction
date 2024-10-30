@@ -31,6 +31,7 @@ services:
         condition: service_healthy
     environment:
       - TRACTION_ENV=${TRACTION_ENV}
+      - ACAPY_ENDPOINT=${ACAPY_ENDPOINT}
       #- NGROK_NAME=ngrok-traction-agent
       - TRACTION_ACAPY_HTTP_PORT=${TRACTION_ACAPY_HTTP_PORT}
       - TRACTION_ACAPY_ADMIN_PORT=${TRACTION_ACAPY_ADMIN_PORT}
