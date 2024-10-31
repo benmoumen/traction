@@ -1,8 +1,8 @@
 <template>
-  <div class="surface-section px-4 py-8 md:px-6 lg:px-8 text-center">
+  <div class="surface-section px-4 py-8 md:px-6 lg:px-8">
     <div class="center-boxed">
       <div class="img-holder">
-        <img src="/img/logo/logo.png" />
+        <img src="/img/logo/logo.png" class="logo" />
       </div>
     </div>
     <div class="mt-3 mb-3 font-bold text-2xl">
@@ -15,11 +15,15 @@
 .center-boxed {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
+}
+
+.logo {
+  width: 18em;
 }
 
 .img-holder {
-  width: 300px;
-  height: 300px;
+  width: 18em;
+  margin-bottom: 2em;
 }
 </style>

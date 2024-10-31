@@ -242,14 +242,14 @@
   "dashboard": {
     "backToDashboard": "Back to Dashboard",
     "dashboard": "Dashboard",
-    "greeting": "Powered by Traction"
+    "greeting": "Welcome to the Credential Management Console"
   },
   "holder": {
     "holder": "Holder"
   },
   "home": {
     "dashboard": "Dashboard",
-    "greeting": "Powered by Traction",
+    "greeting": "Welcome to the Credential Management Console",
     "login": {
       "id": "Wallet ID",
       "secret": "Wallet Key",

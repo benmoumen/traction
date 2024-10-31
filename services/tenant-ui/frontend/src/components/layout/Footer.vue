@@ -1,6 +1,5 @@
 <template>
   <div class="traction-footer flex justify-content-between flex-wrap">
-    <div>{{ $t('dashboard.greeting') }}</div>
     <div>{{ config.frontend.ux.copyright }} {{ config.frontend.ux.owner }}</div>
   </div>
 </template>

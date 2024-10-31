@@ -58,8 +58,8 @@
     </div>
     <div class="col-10">
       <!-- eslint-disable-next-line @intlify/vue-i18n/no-raw-text -->
-      <a href="https://github.com/bcgov/traction" target="_blank">
-        https://github.com/bcgov/traction
+      <a href="https://github.com/benmoumen/traction" target="_blank">
+        https://github.com/benmoumen/traction
       </a>
     </div>
   </div>
@@ -79,6 +79,6 @@ const swaggerUrl = computed(
 
 <style scoped>
 .logo-trac {
-  width: 25em;
+  width: 18em;
 }
 </style>
