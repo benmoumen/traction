@@ -246,14 +246,14 @@
   "dashboard": {
     "backToDashboard": "Retour au tableau de bord",
     "dashboard": "Tableau de bord",
-    "greeting": "Propulsé par Traction"
+    "greeting": "Bienvenue dans la console de gestion des certificats vérifiables"
   },
   "holder": {
     "holder": "Titulaire"
   },
   "home": {
     "dashboard": "Tableau de bord",
-    "greeting": "Propulsé par Traction",
+    "greeting": "Bienvenue dans la console de gestion des certificats vérifiables",
     "login": {
       "id": "ID du portefeuille",
       "secret": "Clé du portefeuille",

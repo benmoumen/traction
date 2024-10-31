@@ -246,14 +246,14 @@
   "dashboard": {
     "backToDashboard": "Volver al Dashboard",
     "dashboard": "Dashboard",
-    "greeting": "Desarrollado por Traction"
+    "greeting": "Bienvenido al Consola de Gestión de Credenciales"
   },
   "holder": {
     "holder": "Portador"
   },
   "home": {
     "dashboard": "Dashboard",
-    "greeting": "Desarrollado por Traction",
+    "greeting": "Bienvenido al Consola de Gestión de Credenciales",
     "login": {
       "id": "ID de Wallet",
       "secret": "Clave de Wallet",

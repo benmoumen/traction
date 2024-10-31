@@ -242,14 +242,14 @@
   "dashboard": {
     "backToDashboard": "العودة إلى لوحة التحكم",
     "dashboard": "لوحة التحكم",
-    "greeting": "مدعوم بواسطة Traction"
+    "greeting": "مرحبًا بك في وحدة إدارة الشهادات"
   },
   "holder": {
     "holder": "الحامل"
   },
   "home": {
     "dashboard": "لوحة التحكم",
-    "greeting": "مدعوم بواسطة Traction",
+    "greeting": "مرحبًا بك في وحدة إدارة الشهادات",
     "login": {
       "id": "معرف المحفظة",
       "secret": "مفتاح المحفظة",
