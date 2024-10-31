@@ -14,17 +14,17 @@ const config = {
       label: 'IDIR',
     },
     ux: {
-      appTitle: 'Traction Tenant Console',
-      appInnkeeperTitle: 'Traction Innkeeper Console',
-      sidebarTitle: 'TRACTION',
-      copyright: '',
-      owner: '',
-      coverImageCopyright: 'Photo by Kristoffer Fredriksson on StockSnap',
-      aboutBusiness: {
-        title: 'Government of British Columbia',
-        linkTitle: 'BC Digital Trust Service Agreement',
-        link: 'https://github.com/bcgov/bc-vcpedia/blob/main/agents/bc-gov-agent-service.md',
-        imageUrl: '/unctad/unctad_logo.webp',
+      "appTitle": "Credential Management System",
+      "appInnkeeperTitle": "Tenant Authorization Console",
+      "sidebarTitle": "TRACTION",
+      "copyright": "",
+      "owner": "",
+      "coverImageCopyright": "Photo by Altered Reality on StockSnap",
+      "aboutBusiness": {
+        "title": "UN Trade & Development",
+        "linkTitle": "UNCTAD Digital Government",
+        "link": "https://digitalgovernment.world",
+        "imageUrl": "/img/unctad/unctad_logo.webp"
       },
     },
   },
