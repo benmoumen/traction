@@ -36,7 +36,7 @@ describe('LoginForm', async () => {
     wrapper.getComponent({ name: 'LoginForm' });
 
     //Images from path
-    expect(wrapper.html()).toContain('src="/img/bc/bc_logo.png"');
+    expect(wrapper.html()).toContain('src="/unctad/unctad_logo.webp"');
     expect(wrapper.html()).toContain(
       'src="/img/logo/traction-logo-bc-text.svg"'
     );

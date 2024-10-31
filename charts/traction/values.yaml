@@ -643,7 +643,7 @@ ui:
       ## @param ui.ux.aboutBusiness.link
       link: "https://github.com/bcgov/bc-vcpedia/blob/main/agents/bc-gov-agent-service.md"
       ## @param ui.ux.aboutBusiness.imageUrl
-      imageUrl: "/img/bc/bc_logo.png"
+      imageUrl: "/img/unctad/unctad_logo.webp"
 
     ## Information banner settings
     ##
