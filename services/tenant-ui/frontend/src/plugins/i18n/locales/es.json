@@ -1,0 +1,580 @@
+{
+  "about": {
+    "about": "Acerca de <JA>",
+    "acaPy": {
+      "acaPy": "ACA-Py <JA>",
+      "acapyVersion": "Versión de ACA-Py {version} <JA>",
+      "info": "Información de versión para ACA-Py <JA>",
+      "ledger": "Libro mayor <JA>",
+      "ledgerBrowser": "Navegador de Libro Mayor <JA>",
+      "plugins": "Lista de Plugins Instalados <JA>",
+      "tailsServer": "Servidor Tails <JA>"
+    },
+    "traction": {
+      "imageCreated": "Imagen creada en <JA>",
+      "imageTag": "Etiqueta de imagen <JA>",
+      "imageVersion": "Versión de imagen <JA>",
+      "info": "Información de versión/hosting para TRACTION <JA>",
+      "repository": "Repositorio GitHub para Traction <JA>",
+      "swagger": "URL de Swagger <JA>",
+      "traction": "Traction <JA>",
+      "tractionVersion": "Versión de Traction {version} <JA>",
+      "uiVersion": "Versión de Tenant UI {version} <JA>",
+      "url": "URL de Traction <JA>"
+    }
+  },
+  "admin": {
+    "adminKey": "Clave de Admin <JA>",
+    "adminName": "Nombre de Admin <JA>",
+    "error": "ERROR <JA>",
+    "orRequestAccessWith": "O Solicitar Acceso Con <JA>",
+    "orSignInWith": "O Iniciar Sesión Con <JA>"
+  },
+  "apiKey": {
+    "alias": "Alias para Clave <JA>",
+    "apiKeys": "Claves API <JA>",
+    "createApiKey": "Crear Clave API <JA>",
+    "createSuccess": "Clave API creada <JA>",
+    "delete": "Eliminar Clave API <JA>",
+    "deleteConfirmation": "¿Está seguro de que desea eliminar esta Clave API? <JA>",
+    "deleteSuccess": "Clave API eliminada <JA>",
+    "docs": "El ID de Tenant y la Clave API pueden usarse para obtener un token de acceso desde el endpoint de Token de Multitenancy.",
+    "docsSwagger": "La documentación de la API se puede encontrar aquí:",
+    "generatedKey": "La clave API generada se muestra a continuación una sola vez. Este diálogo es la única vez que se mostrará esta clave y no se puede recuperar nuevamente. <JA>",
+    "generatedKeyMessage": "Se ha generado una Clave API para Tenant {key} <JA>",
+    "generatedKeyMessageInnkeeper": "Se ha generado una Clave API para Tenant ID {key} <JA>",
+    "search": "Buscar Claves API <JA>"
+  },
+  "common": {
+    "actions": "Acciones <JA>",
+    "alias": "Alias <JA>",
+    "apiKey": "Clave API <JA>",
+    "byName": "Buscar por Nombre <JA>",
+    "configDelim": ": ",
+    "confirmation": "Confirmación <JA>",
+    "connectionName": "Nombre de Conexión <JA>",
+    "contactName": "Nombre de Contacto <JA>",
+    "createdAt": "Creado en <JA>",
+    "credentialId": "ID de Credencial <JA>",
+    "credentials": "Credenciales <JA>",
+    "decodedJwt": "JWT Decodificado <JA>",
+    "deleted": "Eliminado <JA>",
+    "deletedAt": "Eliminado en <JA>",
+    "developer": "Desarrollador <JA>",
+    "emailAddress": "Dirección de Email <JA>",
+    "encodedJwt": "JWT Codificado <JA>",
+    "endorser": "Endorsador <JA>",
+    "errorGettingUrl": "Error al obtener {url} <JA>",
+    "genericError": "Ocurrió un error <JA>",
+    "hideDeleted": "Ocultar Eliminados <JA>",
+    "hideSuspended": "Ocultar Suspendidos <JA>",
+    "invitationUrl": "URL de Invitación <JA>",
+    "json": "JSON <JA>",
+    "loading": "Cargando datos. Por favor espere... <JA>",
+    "logout": "Cerrar Sesión <JA>",
+    "name": "Nombre <JA>",
+    "noRecordsFound": "No se encontraron registros <JA>",
+    "profile": "Perfil <JA>",
+    "protocol": "Protocolo <JA>",
+    "refreshTable": "Actualizar Tabla <JA>",
+    "request": "Solicitud <JA>",
+    "searchByCreated": "Buscar por Fecha de Creación <JA>",
+    "searchByDeleted": "Buscar por Fecha de Eliminación <JA>",
+    "searchByName": "Buscar por Nombre <JA>",
+    "searchBySuspended": "Buscar por Fecha de Suspensión <JA>",
+    "settings": "Configuración <JA>",
+    "showDeleted": "Mostrar Eliminados <JA>",
+    "showSuspended": "Mostrar Suspendidos <JA>",
+    "status": "Estado <JA>",
+    "submit": "Enviar <JA>",
+    "suspended": "Suspendido <JA>",
+    "suspendedAt": "Suspendido en <JA>",
+    "tenantId": "ID de Tenant <JA>",
+    "tenantName": "Nombre de Tenant <JA>",
+    "tenantReason": "Razón de Tenant <JA>",
+    "toggleCardExpand": "Alternar Expandir Tarjeta <JA>",
+    "walletId": "ID de Wallet <JA>",
+    "warning": "Advertencia <JA>"
+  },
+  "configuration": {
+    "configuration": "Configuración <JA>",
+    "credentialDefinitions": {
+      "alreadyExists": "La definición de credencial ya existe en el libro mayor. Por favor use una etiqueta diferente. <JA>",
+      "confirmDelete": "¿Está seguro de que desea eliminar esta definición de credencial del almacenamiento? <JA>",
+      "copy": "Copiar Definición de Credencial <JA>",
+      "copyInfo1": "Esto copiará la definición de credencial <JA>",
+      "copyInfo2": "del esquema seleccionado <JA>",
+      "copyInfo3": "dándole una nueva etiqueta. <JA>",
+      "create": "Crear Definición de Credencial <JA>",
+      "delete": "Eliminar Definición de Credencial <JA>",
+      "deleteSuccess": "Definición de credencial eliminada del almacenamiento <JA>",
+      "newTag": "Nueva Etiqueta* <JA>",
+      "postFinished": "La definición de credencial ahora está escrita en el libro mayor y puede ser usada para emitir credenciales. <JA>",
+      "postStart": "Definición de credencial publicada en el libro mayor. Esto puede tardar unos segundos. <JA>",
+      "revokable": "Revocable <JA>",
+      "searchBySchemaId": "Buscar por ID de Esquema <JA>",
+      "selectSchema": "Seleccionar un esquema <JA>",
+      "storage": "Almacenamiento de Definición de Credencial <JA>",
+      "stored": "Definiciones de Credencial Almacenadas <JA>",
+      "tagAlreadyUsed": "La etiqueta ya está usada <JA>",
+      "tagRequired": "La etiqueta es requerida <JA>",
+      "title": "Definición(es) de Credencial <JA>"
+    },
+    "oca": {
+      "bundleAssociationType": "Tipo de asociación del Bundle OCA <JA>",
+      "bundleJson": "JSON del Bundle OCA <JA>",
+      "bundleUrl": "URL del Bundle OCA* <JA>",
+      "disclaimer": "La Vista de Tarjeta OCA para Credenciales en la Tenant UI es una característica experimental. <JA>",
+      "oca": "OCA <JA>",
+      "storedBundleJson": "JSON del Bundle Almacenado <JA>",
+      "url": "URL <JA>"
+    },
+    "schemas": {
+      "add": "Agregar Esquema <JA>",
+      "addedFromLedger": "El esquema [{schemaId}] ha sido agregado desde el libro mayor. <JA>",
+      "addFromLedger": "Agregar Esquema desde Libro Mayor <JA>",
+      "addFromLedgerInfo": "Esto agregará cualquier esquema del libro mayor conectado para su uso en este tenant de traction. Debe ingresar el ID completo del esquema. <JA>",
+      "addNotExists": "El esquema solicitado no existe en el libro mayor. Por favor verifique el ID del esquema y vuelva a intentarlo. <JA>",
+      "alreadyExists": "El esquema ya existe en el libro mayor. Por favor use un nombre o versión diferente. <JA>",
+      "confirmDelete": "¿Está seguro de que desea eliminar este esquema? <JA>",
+      "copy": "Copiar Esquema <JA>",
+      "copyMessage": "Puede cambiar los atributos, pero el nuevo esquema debe tener un nombre o versión diferente. <JA>",
+      "copySent": "Esquema copiado ha sido enviado al libro mayor. Esto puede tardar unos segundos. <JA>",
+      "create": "Crear Esquema <JA>",
+      "delete": "Eliminar Esquema <JA>",
+      "deleteSuccess": "Esquema eliminado exitosamente <JA>",
+      "emptyAttributes": "Por favor proporcione al menos un atributo para el esquema <JA>",
+      "id": "ID del Esquema <JA>",
+      "invalidCopy": "No se puede copiar con el mismo valor de {field} [{value}] <JA>",
+      "mustBeDecimal": "Debe ser un valor decimal de 2 o 3 partes como x.y o x.y.z <JA>",
+      "newName": "Nuevo Nombre de Esquema <JA>",
+      "newVersion": "Nueva Versión de Esquema <JA>",
+      "postFinished": "El esquema ahora está escrito en el libro mayor y puede ser usado para definiciones de credencial. <JA>",
+      "postStart": "Esquema publicado en el libro mayor. Esto puede tardar unos segundos. <JA>",
+      "schema": "Esquema <JA>",
+      "storage": "Almacenamiento de Esquema <JA>",
+      "stored": "Esquemas Almacenados <JA>"
+    },
+    "search": {
+      "actions": "Acciones <JA>",
+      "attributes": "Atributos <JA>",
+      "byAttributes": "Buscar por Atributos <JA>",
+      "byDate": "Buscar por Fecha <JA>",
+      "byId": "Buscar por ID <JA>",
+      "byName": "Buscar por Nombre <JA>",
+      "bySchemaId": "Buscar por ID de Esquema <JA>",
+      "byVersion": "Buscar por Versión <JA>",
+      "createdAt": "Creado en <JA>",
+      "credDefs": "Buscar Def. Cred <JA>",
+      "name": "Nombre <JA>",
+      "schemas": "Buscar Esquemas <JA>",
+      "version": "Versión <JA>"
+    }
+  },
+  "connect": {
+    "acceptInvitation": {
+      "accept": "Aceptar Invitación <JA>",
+      "invitation": "Invitación <JA>",
+      "skipUrl": "Omitir URL y usar JSON <JA>",
+      "submit": "Aceptar <JA>",
+      "supportedUrl": "El formato de URL soportado es <JA>",
+      "supportedUrlEx": "http://<acapy_url>?{0}=<base64 encode>",
+      "url": "URL de Invitación <JA>"
+    },
+    "connections": {
+      "connections": "Conexiones <JA>",
+      "delete": "Eliminar Conexión <JA>",
+      "edit": "Editar Conexión <JA>",
+      "search": "Buscar Conexiones <JA>"
+    },
+    "didExchange": {
+      "did": "DID <JA>",
+      "didExchange": "Intercambio DID <JA>"
+    },
+    "edit": {
+      "lastUpdated": "Última Actualización de Conexión: {0} <JA>"
+    },
+    "invitation": {
+      "alias": "Alias de Conexión <JA>",
+      "close": "Cerrar <JA>",
+      "create": "Crear Invitación <JA>",
+      "goal": "Objetivo <JA>",
+      "goalCode": "Código de Objetivo <JA>",
+      "myLabel": "Mi Etiqueta <JA>",
+      "oobSettings": "Configuraciones Opcionales Fuera de Banda <JA>",
+      "submit": "Enviar <JA>",
+      "type": "Tipo <JA>",
+      "typeConnections": "Conexiones <JA>",
+      "typeMultiUse": "Invitación de Uso Múltiple <JA>",
+      "typeOob": "Fuera de Banda <JA>",
+      "typeSingleMulti": "Invitación Única/Múltiple <JA>",
+      "typeSingleUse": "Invitación de Uso Único <JA>"
+    },
+    "invitations": {
+      "create": "Crear Invitación <JA>",
+      "invitations": "Invitaciones <JA>",
+      "regenerate": "Regenerar Invitación <JA>",
+      "search": "Buscar Invitaciones <JA>"
+    },
+    "message": {
+      "messageConnection": "Chatear con {0} <JA>"
+    },
+    "table": {
+      "createdAt": "Creado en <JA>",
+      "invitationMode": "Modo de Invitación <JA>",
+      "theirLabel": "Etiqueta de Ellos <JA>"
+    }
+  },
+  "credentials": {
+    "exchanges": {
+      "exchanges": "Intercambios de Credenciales <JA>",
+      "search": "Buscar Intercambios de Credenciales <JA>",
+      "table": {
+        "connection": "Conexión <JA>",
+        "credential": "Credencial <JA>",
+        "lastUpdate": "Última Actualización <JA>"
+      },
+      "viewCard": "Ver en formato de Tarjeta <JA>",
+      "viewTable": "Ver en formato de Tabla <JA>"
+    },
+    "wallet": {
+      "noOca": "No hay OCA asociada con esta definición de credencial <JA>",
+      "noOcaNotImpl": "No se puede mostrar vista de tarjeta para Credenciales sin OCA en este momento. <JA>",
+      "notFound": "No hay credenciales en su Wallet <JA>"
+    }
+  },
+  "dashboard": {
+    "backToDashboard": "Volver al Dashboard <JA>",
+    "dashboard": "Dashboard <JA>",
+    "greeting": "Desarrollado por Traction <JA>"
+  },
+  "holder": {
+    "holder": "Portador <JA>"
+  },
+  "home": {
+    "dashboard": "Dashboard <JA>",
+    "greeting": "Desarrollado por Traction <JA>",
+    "login": {
+      "id": "ID de Wallet <JA>",
+      "secret": "Clave de Wallet <JA>",
+      "submit": "Iniciar Sesión <JA>"
+    }
+  },
+  "httpStatus": {
+    "404": {
+      "code": "404 <JA>",
+      "status": "Página No Encontrada <JA>"
+    }
+  },
+  "issue": {
+    "attributes": "Atributos* <JA>",
+    "connection": "Conexión: <JA>",
+    "credentialDefinitionTag": "Etiqueta de Definición de Credencial* <JA>",
+    "credentialFieldValues": "Valores de Campo de Credencial <JA>",
+    "credentials": "Credenciales Ofrecidas/Ejecutadas <JA>",
+    "credentialValue": "Valor de Credencial <JA>",
+    "delete": {
+      "confirm": "¿Está seguro de que desea ELIMINAR este registro de intercambio de credencial? <JA>",
+      "removeExchange": "Eliminar Registro de Intercambio de Credencial <JA>",
+      "success": "Registro de intercambio de credencial eliminado <JA>"
+    },
+    "id": "ID: <JA>",
+    "issuance": "Emisión <JA>",
+    "offer": "Ofrecer Credencial <JA>",
+    "revocationEnabled": "Revocación Habilitada <JA>",
+    "revocationId": "ID de Revocación: <JA>",
+    "revocationRegistry": "Registro de Revocación: <JA>",
+    "revocationRegistrySize": "Tamaño del Registro de Revocación <JA>",
+    "revoke": {
+      "action": "Revocar <JA>",
+      "comment": "Comentario Opcional <JA>",
+      "confirm": "¿Está seguro de que desea REVOCAR esta credencial? <JA>",
+      "revokeCred": "Revocar Credencial <JA>",
+      "success": "Credencial revocada <JA>"
+    },
+    "schema": "Esquema <JA>",
+    "schemaId": "ID de Esquema* <JA>",
+    "schemaName": "Nombre* <JA>",
+    "schemaVersion": "Versión* <JA>",
+    "version": "Versión: <JA>"
+  },
+  "layout": {
+    "header": {
+      "toggleSideMenu": "Alternar el menú lateral <JA>"
+    }
+  },
+  "login": {
+    "backToSignIn": "Volver a Iniciar Sesión <JA>",
+    "checkStatus": "Verificar Estado! <JA>",
+    "createRequest": "Crear Solicitud! <JA>",
+    "invalidCreds": "ID de Wallet o Clave de Wallet incorrectos. Por favor intente de nuevo. <JA>",
+    "noAccount": "¿No tienes una cuenta? <JA>",
+    "submit": "Iniciar Sesión <JA>",
+    "submittedRequest": "¿Ya has enviado una solicitud? <JA>",
+    "walletSecret": "Clave de Wallet <JA>"
+  },
+  "messages": {
+    "connectionId": "ID de Conexión <JA>",
+    "createMessage": "Crear un Mensaje <JA>",
+    "disclaimer": "Nota: Esta tabla contiene los registros de almacenamiento de mensajes. Para conversaciones por conexión, vea la página de 'Conexiones'. <JA>",
+    "messageContent": "Contenido del Mensaje <JA>",
+    "messages": "Mensajes <JA>"
+  },
+  "profile": {
+    "config": "Configuración: <JA>",
+    "connectionNotActiveYet": "Conexión aún no activa, actualice o vuelva más tarde. <JA>",
+    "connectTenantToEndorser": "Conectar Tenant al Endorsador <JA>",
+    "connectTenantToEndorserNotAllowed": "Innkeeper no ha aprobado conexiones de endorsers para su tenant <JA>",
+    "connectToEndorserAndRegisterDID": "Conectar al Endorsador y Registrar DID correspondiente a un Libro Mayor <JA>",
+    "contact": "Email de Contacto <JA>",
+    "createdAt": "Creado en <JA>",
+    "didNotActiveApproved": "Registro de DID aprobado por Endorsador, continúe arriba. <JA>",
+    "didNotActiveYet": "Aprobación de registro de DID pendiente, actualice o vuelva una vez que el Endorsador apruebe la solicitud. <JA>",
+    "endorserConnection": "Conexión Endorsador <JA>",
+    "endorserInfo": "Información del Endorsador <JA>",
+    "imageUrl": "URL de Imagen <JA>",
+    "issuer": "Emisor <JA>",
+    "name": "Nombre <JA>",
+    "noEndorserInfoFound": "No se encontró información del Endorsador, emisión deshabilitada <JA>",
+    "pendingDidTx": "Transacción de DID Pública del Endorsador Pendiente <JA>",
+    "publicDid": "DID Pública <JA>",
+    "publicDidPending": "DID Pública Solicitada (Pendiente de Aprobación del Endorsador) <JA>",
+    "registerPublicDid": "Registrar una DID pública <JA>",
+    "registerPublicDidNotAllowed": "Innkeeper no ha aprobado el registro de DID pública para su tenant <JA>",
+    "state": "Estado: {0} <JA>",
+    "taa": {
+      "accepted": "Aceptado en",
+      "agreeAccept": "Acepto los términos del Acuerdo de Autor de Transacción <JA>",
+      "mechanism": "Mecanismo <JA>",
+      "ratification": "Ratificación <JA>",
+      "requiredNo": "No se requiere Acuerdo de Autor de Transacción para este libro mayor. <JA>",
+      "requiredYes": "Se requiere un Acuerdo de Autor de Transacción para este libro mayor. <JA>",
+      "reviewButton": "Revisar/Aceptar TAA <JA>",
+      "taaAcceptance": "Aceptación de TAA <JA>",
+      "taaDetails": "Detalles de TAA <JA>",
+      "version": "Versión de TAA <JA>"
+    },
+    "tenantId": "ID de Tenant <JA>",
+    "tenantNotConnectedToEndorserYet": "Tenant aún no conectado al Endorsador <JA>",
+    "token": "Token JWT <JA>",
+    "updatedAt": "Actualizado en <JA>",
+    "walletDids": "DIDs de Wallet <JA>",
+    "walletLabel": "Etiqueta de Wallet <JA>",
+    "webHookKey": "Clave de WebHook <JA>",
+    "webhooks": "Webhooks <JA>",
+    "webHookUrl": "URL de WebHook <JA>",
+    "writeLedger": "Libro Mayor Actual: {0} <JA>"
+  },
+  "qrCode": {
+    "noContentFound": "No se encontró contenido <JA>"
+  },
+  "reservations": {
+    "alreadyComplete": "Ya Completo <JA>",
+    "approved!": "¡APROBADO! <JA>",
+    "approved": {
+      "text": "La contraseña de Check-In ha sido generada. Se ha enviado un email a {email} <JA>",
+      "title": "Reserva Aprobada <JA>",
+      "toast": "Reserva Aprobada para {email} <JA>"
+    },
+    "approveRequest": "Aprobar Solicitud <JA>",
+    "checkJunkFolder": "(Por favor revise su carpeta de correo no deseado/spam antes de contactarnos, ya que es muy común tener problemas de entrega de email debido a filtros automáticos.) <JA>",
+    "contactEmail": "Email de Contacto <JA>",
+    "contactPhone": "Teléfono de Contacto <JA>",
+    "current": "Actual <JA>",
+    "dateOccurred": "La fecha en que ocurrió fue {0} <JA>",
+    "declined!": "¡DECLINADO! <JA>",
+    "denied": {
+      "reasonText": "Razón de la Denegación (Opcional) <JA>",
+      "toast": "Reserva Denegada para {email} <JA>"
+    },
+    "denyRequest": "Denegar Solicitud <JA>",
+    "emailAddress": "Dirección de Email <JA>",
+    "emailSentTo": "También se ha enviado un email a {0} con el número de reserva a continuación. <JA>",
+    "enterPassword": "Por favor ingrese la contraseña de reserva a continuación para validar su cuenta. <JA>",
+    "history": "Historial <JA>",
+    "incorrectEmailOrReservationId": "Email o ID de Reserva incorrecto. Por favor intente de nuevo. <JA>",
+    "loadingCheckIn": "Verificando Reserva <JA>",
+    "otp": "La contraseña se muestra a continuación una sola vez si necesita comunicarla por otros medios <JA>",
+    "passwordAvailable": "La contraseña de reserva es visible a continuación, por favor úsela para completar su check-in. <JA>",
+    "passwordValid48Hours": "La contraseña de reserva es válida solo por 48 horas desde el momento en que se envió a su dirección de email. <JA>",
+    "pending!": "¡PENDIENTE! <JA>",
+    "refreshed": {
+      "text": "La contraseña de Check-In ha sido re-enviada a {email} <JA>",
+      "title": "Contraseña Actualizada <JA>",
+      "toast": "Contraseña Actualizada para {email} <JA>"
+    },
+    "refreshPassword": "Actualizar Contraseña <JA>",
+    "requestDeclined": "Lamentamos informarle que su solicitud ha sido declinada. <JA>",
+    "requestProcessingTime": "Usualmente toma 3-4 días hábiles procesar una solicitud. Gracias por su paciencia. <JA>",
+    "requestReservedOn": "Su solicitud ha sido recibida el {0} <JA>",
+    "requests": "Solicitudes <JA>",
+    "reservationHistory": "Historial de Reservas <JA>",
+    "reservationId": "ID de Reserva <JA>",
+    "reservationPassword": "Contraseña de Reserva <JA>",
+    "reservationPreviouslyCompleted": "Esta reserva ya ha sido completada previamente y los detalles de la wallet han sido proporcionados. <JA>",
+    "reservations": "Reservas <JA>",
+    "reservationValidated": "Su reserva ha sido validada exitosamente. <JA>",
+    "resonForRejection": "Razón para el rechazo <JA>",
+    "saveWalletIdAndWalletKey": "Por favor guarde su nuevo ID de wallet y clave de wallet en un lugar seguro. Perdirá los datos una vez que esta ventana se cierre o regrese a iniciar sesión. Nunca compartiremos esta información por email ni la reemitiremos bajo petición. <JA>",
+    "sentPasswordOn": "Hemos enviado una contraseña de reserva a su dirección de email el {0} <JA>",
+    "submitNewRequest": "Si cree que ha habido un error, puede enviar una nueva solicitud nuevamente. <JA>",
+    "submitted": "Su solicitud ha sido enviada exitosamente. <JA>",
+    "thankYou": "¡Gracias! <JA>",
+    "thankYou!": "¡Gracias! <JA>",
+    "validated!": "¡VALIDADO! <JA>",
+    "walletId": "ID de Wallet <JA>",
+    "walletIdAndWalletKey": "Aquí está su nuevo ID de Wallet y Clave de Wallet asociados con la dirección de email mencionada al registrarse. <JA>",
+    "walletKey": "Clave de Wallet <JA>",
+    "walletKeyCannotBeRetrieved": "La clave de wallet no puede ser recuperada nuevamente una vez proporcionada. Si necesita una nueva wallet puede regresar e iniciar una nueva reserva. <JA>",
+    "walletKeyCannotBeRetrievedAgain": "La clave de wallet no puede ser recuperada nuevamente una vez proporcionada. Si necesita una nueva wallet puede regresar e iniciar una nueva reserva. <JA>"
+  },
+  "reserve": {
+    "email": "Dirección de Email <JA>",
+    "fullName": "Nombre Completo <JA>",
+    "phone": "Teléfono / Móvil <JA>"
+  },
+  "serverConfig": {
+    "acapyVersion": "Versión de ACA-Py: <JA>",
+    "expand": "Mostrar configuración completa del servidor ACA-Py <JA>",
+    "ledger": {
+      "default": "Libro mayor predeterminado: <JA>",
+      "ledgerDetails": "Detalles del Libro Mayor <JA>",
+      "ledgerList": "Lista de Libros Mayores <JA>",
+      "quickConnect": "Conexión rápida de tenant UI al endorser: <JA>"
+    },
+    "serverConfig": "Configuración del Servidor <JA>",
+    "storage": {
+      "multitenantWalletName": "Nombre de Wallet Multitenant: <JA>",
+      "multitenantWalletType": "Tipo de Wallet Multitenant: <JA>",
+      "title": "Almacenamiento <JA>",
+      "walletStorageConfig": "Configuración de Almacenamiento de Wallet: <JA>",
+      "walletStorageType": "Tipo de Almacenamiento de Wallet: <JA>",
+      "walletType": "Tipo de Wallet: <JA>"
+    },
+    "tenants": {
+      "reservation": "Reserva <JA>",
+      "reservationAutoApprove": "Aprobar reservas automáticamente: <JA>",
+      "reservationAutoIssuer": "Aprobación automática de emisión: <JA>",
+      "reservationExpiry": "Expiración de reserva (minutos): <JA>",
+      "reservationForm": "Formulario de Reserva <JA>",
+      "reservationOidc": "Se requiere inicio de sesión OIDC para la reserva: <JA>",
+      "title": "Tenants/Reservas <JA>",
+      "token": "Expiración del Token: <JA>"
+    },
+    "tenantUi": {
+      "expand": "Mostrar configuración completa del frontend de Tenant UI <JA>",
+      "oidc": "Endpoint OIDC: <JA>",
+      "sessionExpiry": "Expiración de sesión del frontend: <JA>",
+      "sessionExpiryVal": "{0} segundos (Cuenta regresiva: {1} segundos) <JA>",
+      "showWrite": "Mostrar componentes 'Write' <JA>",
+      "tenantUi": "Tenant UI <JA>"
+    },
+    "tractionProxy": "URL del Proxy de Traction: <JA>"
+  },
+  "session": {
+    "countdown": "Vas a ser desconectado en { seconds } segundos... <JA>",
+    "countdownHeader": "Tiempo de sesión expirando <JA>",
+    "timeoutHeader": " ",
+    "timeoutMessage": "Tu sesión ha expirado por inactividad y has sido desconectado. Por favor reingresa tu información de inicio de sesión. <JA>"
+  },
+  "status": {
+    "email": "Ingresa tu Dirección de Email de solicitud <JA>",
+    "reservationId": "Ingresa tu ID de Reserva <JA>",
+    "submit": "Verificar Estado <JA>"
+  },
+  "tenant": {
+    "profile": {
+      "tenantProfile": "Perfil de Tenant <JA>"
+    },
+    "settings": {
+      "acapyAutoAcceptInvites": "Aceptar Invitaciones automáticamente <JA>",
+      "acapyAutoAcceptRequests": "Aceptar Solicitudes automáticamente <JA>",
+      "acapyAutoPingConnection": "Enviar ping de Conexión automáticamente <JA>",
+      "acapyAutoRequestEndorsement": "Solicitar Endorsement automáticamente <JA>",
+      "acapyAutoRespondCredentialOffer": "Responder Ofertas de Credencial automáticamente <JA>",
+      "acapyAutoRespondCredentialRequest": "Responder Solicitudes de Credencial automáticamente <JA>",
+      "acapyAutoRespondMessages": "Responder Mensajes automáticamente <JA>",
+      "acapyAutoVerifyPresentation": "Verificar Presentaciones automáticamente <JA>",
+      "acapyAutoWriteTransactions": "Escribir Transacciones Endorsadas automáticamente <JA>",
+      "acapyCreateRevocationTransactions": "Crear Transacciones de Revocación <JA>",
+      "acapyEndorserRole": "Rol de Endorsador <JA>",
+      "acapyHelpAutoAcceptInvites": "ACAPY_AUTO_ACCEPT_INVITES - Aceptar invitaciones automáticamente sin desencadenar un evento webhook o esperar una solicitud de admin. <JA>",
+      "acapyHelpAutoAcceptRequests": "ACAPY_AUTO_ACCEPT_REQUESTS - Aceptar solicitudes de conexión automáticamente sin desencadenar un evento webhook o esperar una solicitud de admin. <JA>",
+      "acapyHelpAutoPingConnection": "ACAPY_AUTO_PING_CONNECTION - Enviar un ping de confianza inmediatamente después de aceptar una respuesta de conexión. Algunos agentes requieren esto antes de marcar una conexión como 'activa' <JA>",
+      "acapyHelpAutoRequestEndorsement": "ACAPY_AUTO_REQUEST_ENDORSEMENT - Para Autores, especificar si solicitar endorsement automáticamente para todas las transacciones. (Si no se especifica, el controlador debe invocar la operación de solicitud de endorsement para cada transacción.) <JA>",
+      "acapyHelpAutoRespondCredentialOffer": "ACAPY_AUTO_RESPOND_CREDENTIAL_OFFER - Responder automáticamente a ofertas de credencial de Indy con una solicitud de credencial <JA>",
+      "acapyHelpAutoRespondCredentialRequest": "ACAPY_AUTO_RESPOND_CREDENTIAL_REQUEST - Responder automáticamente a solicitudes de credencial con las credenciales correspondientes <JA>",
+      "acapyHelpAutoRespondMessages": "ACAPY_AUTO_RESPOND_MESSAGES - Responder automáticamente a mensajes básicos indicando que el mensaje fue recibido <JA>",
+      "acapyHelpAutoVerifyPresentation": "ACAPY_AUTO_VERIFY_PRESENTATION - Verificar automáticamente una presentación cuando se recibe. <JA>",
+      "acapyHelpAutoWriteTransactions": "ACAPY_AUTO_WRITE_TRANSACTIONS - Para Autores, especificar si escribir automáticamente cualquier transacción endorsada. (Si no se especifica, el controlador debe invocar los endpoints necesarios para escribir la transacción.) <JA>",
+      "acapyHelpCreateRevocationTransactions": "ACAPY_CREATE_REVOCATION_TRANSACTIONS - Para Autores, especificar si crear automáticamente transacciones para el registro de revocación de una definición de credencial. (Si no se especifica, el controlador debe invocar los endpoints requeridos para crear el registro de revocación y asignarlo a la definición de credencial.) <JA>",
+      "acapyHelpEndorserRole": "ACAPY_ENDORSER_ROLE - Especificar el rol ('author' o 'endorser') en el que este agente participará. Los autores solicitarán endorsement de transacciones a un Endorsador. Los Endorsers endorsarán transacciones de Autores y pueden escribir sus propias transacciones en el libro mayor. Si no se especifica un rol (o 'none'), el protocolo de endorsement no se usará y este agente escribirá transacciones directamente en el libro mayor. <JA>",
+      "acapyHelpInvitePublic": "ACAPY_INVITE_PUBLIC - Bandera que especifica que la invitación generada debe ser pública. <JA>",
+      "acapyHelpLogLevel": "ACAPY_LOG_LEVEL - Especifica un nivel de registro personalizado. <JA>",
+      "acapyHelpMonitorPing": "ACAPY_MONITOR_PING - Enviar un webhook cuando se envía o recibe un ping. <JA>",
+      "acapyHelpNotifyRevocation": "ACAPY_NOTIFY_REVOCATION - Especifica que aca-py notificará a los receptores de credenciales cuando se revoque una credencial que emitió. <JA>",
+      "acapyHelpPublicInvites": "ACAPY_PUBLIC_INVITES - Enviar invitaciones usando el DID público para el agente, y recibir solicitudes de conexión solicitadas por invitaciones que usan el DID público. Predeterminado <JA>",
+      "acapyInvitePublic": "La invitación generada debe ser pública <JA>",
+      "acapyLogLevel": "Nivel de Registro <JA>",
+      "acapyMonitorPing": "Monitorear Ping <JA>",
+      "acapyNotifyRevocation": "Notificar Revocación <JA>",
+      "acapyPublicInvites": "Enviar Invitaciones usando DID público <JA>",
+      "auto": "Bandera Automática <JA>",
+      "extraSettings": "Configuraciones Extras (palabras por determinar) <JA>",
+      "tenantWalletSettings": "Configuraciones de Wallet del Tenant <JA>"
+    }
+  },
+  "tenants": {
+    "checkIn": "Check-In Tenant <JA>",
+    "search": "Buscar Tenants <JA>",
+    "settings": {
+      "canBecomeIssuer": "Tenant puede convertirse en emisor, es decir, conectar con endorser y registrar DID <JA>",
+      "canConnectEndorser": "Tenant autorizado para conectar con Endorsers <JA>",
+      "canRegisterDid": "Tenant autorizado para registrar DID pública <JA>",
+      "confirmDeletion": "Para confirmar, escriba \"{tenantName}\" en el cuadro a continuación <JA>",
+      "confirmDeletionIncorrect": "Nombre de tenant incorrecto. Por favor confirme el nombre correcto antes de la eliminación. <JA>",
+      "confirmDeletionSuccess": "Tenant {0} marcado exitosamente como eliminado <JA>",
+      "deleted": "eliminado <JA>",
+      "deleteTenant": "Eliminar Tenant <JA>",
+      "editSettings": "Editar Configuración del Tenant <JA>",
+      "enableLedgerSwitch": "Tenant puede cambiar endorser/libro mayor <JA>",
+      "endorserAlias": "Alias de Endorsador <JA>",
+      "ledgerName": "Nombre del Libro Mayor <JA>",
+      "permanentDelete": "Eliminar Definitivamente <JA>",
+      "restoreConfirm": "Restaurar tenant {0} <JA>",
+      "restoreSuccess": "Tenant {0} restaurado exitosamente <JA>",
+      "restoreTenant": "Restaurar Tenant <JA>",
+      "softDelete": "Suspender Tenant <JA>",
+      "success": "Configuración del Tenant Actualizada <JA>",
+      "suspended": "suspendido <JA>",
+      "tenantDeletionWarning": ": Esto eliminará todos los datos asociados con este tenant. <JA>"
+    },
+    "tenants": "Tenants <JA>"
+  },
+  "verifier": {
+    "attributeRestrictionsSatisfied": "Todas las restricciones de atributos fueron satisfechas <JA>",
+    "comingSoon": "Próximamente <JA>",
+    "contactAlias: ": "Alias de Conexión: <JA>",
+    "credentialHeldBy": "La credencial está en posesión de <JA>",
+    "credentialTamperFree ": "La credencial no ha sido manipulada <JA>",
+    "credentialValid": "La credencial es válida <JA>",
+    "presentationShouldHaveStatus": "Este no es el componente que estás buscando, la presentación debe tener status='verified' <JA>",
+    "status: ": "Estado <JA>",
+    "updatedAt": "Actualizado en <JA>",
+    "verifications": "Verificaciones <JA>"
+  },
+  "verify": {
+    "autoVerify": "Verificación Automática <JA>",
+    "autoVerifyHelp": "Elección del verificador para verificar automáticamente la presentación de prueba <JA>",
+    "comment": "Comentario Opcional <JA>",
+    "connection": "Conexión <JA>",
+    "copyRequest": "Copiar Solicitud de Presentación Existente <JA>",
+    "createRequest": "Crear Solicitud de Presentación <JA>",
+    "delete": "Eliminar Registro de Intercambio de Presentación <JA>",
+    "deleteConfirmation": "¿Está seguro de que desea eliminar este Registro de Intercambio de Presentación? <JA>",
+    "deleteSuccess": "Registro de Intercambio de Presentación eliminado exitosamente <JA>",
+    "presentationRequestBody": "Solicitud de Prueba <JA>",
+    "verification": "Verificación <JA>",
+    "verifications": "Verificaciones <JA>"
+  }
+}

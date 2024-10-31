@@ -1,0 +1,571 @@
+{
+  "about": {
+    "about": "حول",
+    "acaPy": {
+      "acaPy": "ACA-Py",
+      "acapyVersion": "إصدار ACA-Py {version}",
+      "info": "معلومات الإصدار لـ ACA-Py",
+      "ledger": "السجل",
+      "ledgerBrowser": "متصفح السجل",
+      "plugins": "قائمة الإضافات المثبتة",
+      "tailsServer": "خادم Tails"
+    },
+    "traction": {
+      "imageCreated": "تم إنشاء الصورة في",
+      "imageTag": "علامة الصورة",
+      "imageVersion": "إصدار الصورة",
+      "info": "معلومات الإصدار/الاستضافة لـ TRACTION",
+      "repository": "مستودع GitHub لـ Traction",
+      "swagger": "عنوان URL لـ Swagger",
+      "traction": "Traction",
+      "tractionVersion": "إصدار Traction {version}",
+      "uiVersion": "إصدار واجهة المستخدم لـ Tenant {version}",
+      "url": "عنوان URL لـ Traction"
+    }
+  },
+  "admin": {
+    "adminKey": "مفتاح المدير",
+    "adminName": "اسم المدير",
+    "error": "خطأ",
+    "orRequestAccessWith": "أو اطلب الوصول باستخدام",
+    "orSignInWith": "أو سجل الدخول باستخدام"
+  },
+  "apiKey": {
+    "alias": "الاسم المستعار للمفتاح",
+    "apiKeys": "مفاتيح API",
+    "createApiKey": "إنشاء مفتاح API",
+    "createSuccess": "تم إنشاء مفتاح API",
+    "delete": "حذف مفتاح API",
+    "deleteConfirmation": "هل أنت متأكد أنك تريد حذف هذا المفتاح API؟",
+    "deleteSuccess": "تم حذف مفتاح API",
+    "docs": "يمكن استخدام معرف المستأجر ومفتاح API للحصول على رمز وصول من نقطة نهاية رمز Multitenancy Token.",
+    "docsSwagger": "يمكن العثور على وثائق API هنا:",
+    "generatedKey": "يتم عرض مفتاح API المُولد أدناه. هذه النافذة هي المرة الوحيدة التي سيتم فيها عرض هذا المفتاح ولا يمكن استرجاعه مرة أخرى.",
+    "generatedKeyMessage": "تم إنشاء مفتاح API لمستأجرك",
+    "generatedKeyMessageInnkeeper": "تم إنشاء مفتاح API للمستأجر {key}",
+    "search": "بحث في مفاتيح API"
+  },
+  "common": {
+    "actions": "إجراءات",
+    "alias": "اسم مستعار",
+    "apiKey": "مفتاح API",
+    "byName": "البحث بالاسم",
+    "configDelim": ": ",
+    "confirmation": "تأكيد",
+    "connectionName": "اسم الاتصال",
+    "contactName": "اسم جهة الاتصال",
+    "createdAt": "تم الإنشاء في",
+    "credentialId": "معرف الشهادة",
+    "credentials": "الشهادات",
+    "decodedJwt": "JWT المفكك",
+    "developer": "المطور",
+    "emailAddress": "عنوان البريد الإلكتروني",
+    "encodedJwt": "JWT المشفر",
+    "endorser": "المؤيد",
+    "errorGettingUrl": "خطأ في جلب {url}",
+    "genericError": "حدث خطأ",
+    "hideSuspended": "إخفاء المعلقين",
+    "invitationUrl": "عنوان URL للدعوة",
+    "json": "JSON",
+    "ledgers": "السجلات",
+    "loading": "جارٍ تحميل البيانات. يرجى الانتظار...",
+    "logout": "تسجيل الخروج",
+    "name": "الاسم",
+    "noRecordsFound": "لم يتم العثور على سجلات",
+    "profile": "الملف الشخصي",
+    "protocol": "البروتوكول",
+    "refreshTable": "تحديث الجدول",
+    "request": "طلب",
+    "searchByCreated": "البحث حسب تاريخ الإنشاء",
+    "searchByName": "البحث بالاسم",
+    "searchBySuspended": "البحث حسب تاريخ التعليق",
+    "settings": "الإعدادات",
+    "showSuspended": "عرض المعلقين",
+    "status": "الحالة",
+    "submit": "إرسال",
+    "suspended": "معلق",
+    "suspendedAt": "معلق في",
+    "tenantId": "معرف المستأجر",
+    "tenantName": "اسم المستأجر",
+    "tenantReason": "سبب المستأجر",
+    "toggleCardExpand": "تبديل توسيع البطاقة",
+    "walletId": "معرف المحفظة",
+    "warning": "تحذير"
+  },
+  "configuration": {
+    "configuration": "الإعدادات",
+    "credentialDefinitions": {
+      "alreadyExists": "تعريف الشهادة موجود بالفعل في سجل البلوكشين. يرجى استخدام علامة مختلفة.",
+      "confirmDelete": "هل أنت متأكد أنك تريد إزالة تعريف الشهادة هذا من التخزين؟",
+      "copy": "نسخ تعريف الشهادة",
+      "copyInfo1": "سيؤدي هذا إلى نسخ تعريف الشهادة",
+      "copyInfo2": "للمخطط المحدد",
+      "copyInfo3": "من خلال إعطائه علامة جديدة.",
+      "create": "إنشاء تعريف شهادة",
+      "delete": "حذف تعريف الشهادة",
+      "deleteSuccess": "تمت إزالة تعريف الشهادة من التخزين",
+      "newTag": "علامة جديدة*",
+      "postFinished": "تم الآن كتابة تعريف الشهادة إلى سجل البلوكشين ويمكن استخدامه لإصدار الشهادات.",
+      "postStart": "تم نشر تعريف الشهادة إلى سجل البلوكشين. قد يستغرق ذلك بضع ثوانٍ.",
+      "revokable": "قابل للإلغاء",
+      "searchBySchemaId": "البحث حسب معرف المخطط",
+      "selectSchema": "اختر مخطط بيانات",
+      "storage": "تخزين تعريف الشهادة",
+      "stored": "تعريفات الشهادة المخزنة",
+      "tagAlreadyUsed": "تم استخدام العلامة بالفعل",
+      "tagRequired": "العلامة مطلوبة",
+      "title": "تعريف (تعريفات) الشهادة"
+    },
+    "oca": {
+      "bundleAssociationType": "نوع ارتباط حزمة OCA",
+      "bundleJson": "حزمة OCA JSON",
+      "bundleUrl": "عنوان URL لحزمة OCA*",
+      "disclaimer": "عرض بطاقة OCA للشهادات في واجهة مستخدم المستأجر هي ميزة تجريبية.",
+      "oca": "OCA",
+      "storedBundleJson": "حزمة JSON المخزنة",
+      "url": "عنوان URL"
+    },
+    "schemas": {
+      "add": "إضافة مخطط بيانات",
+      "addedFromLedger": "تمت إضافة المخطط [{schemaId}] من السجل.",
+      "addFromLedger": "إضافة مخطط بيانات من السجل",
+      "addFromLedgerInfo": "سيؤدي هذا إلى إضافة أي مخطط بيانات من سجل المتصل للاستخدام في مستأجر Traction هذا. يجب عليك إدخال معرف المخطط الكامل.",
+      "addNotExists": "المخطط المطلوب غير موجود في السجل. يرجى التحقق من معرف المخطط والمحاولة مرة أخرى.",
+      "alreadyExists": "المخطط موجود بالفعل في السجل. يرجى استخدام اسم أو إصدار مختلف.",
+      "confirmDelete": "هل أنت متأكد أنك تريد حذف هذا المخطط بيانات؟",
+      "copy": "نسخ مخطط البيانات",
+      "copyMessage": "يمكنك تغيير السمات، ولكن يجب أن يحتوي المخطط الجديد على اسم أو إصدار مختلف.",
+      "copySent": "تم إرسال المخطط المنسوخ إلى السجل. قد يستغرق ذلك بضع ثوانٍ.",
+      "create": "إنشاء مخطط بيانات",
+      "delete": "حذف مخطط بيانات",
+      "deleteSuccess": "تم حذف المخطط بنجاح",
+      "emptyAttributes": "يرجى تقديم سمة واحدة على الأقل للمخطط",
+      "id": "معرف المخطط",
+      "invalidCopy": "لا يمكن النسخ بنفس قيمة {field} [{value}]",
+      "mustBeDecimal": "يجب أن تكون قيمة عشرية من جزأين أو ثلاثة أجزاء مثل x.y أو x.y.z",
+      "newName": "اسم مخطط بيانات جديد",
+      "newVersion": "إصدار مخطط بيانات جديد",
+      "postFinished": "تم الآن كتابة المخطط إلى السجل ويمكن استخدامه لتعريفات الشهادة.",
+      "postStart": "تم نشر المخطط إلى السجل. قد يستغرق ذلك بضع ثوانٍ.",
+      "schema": "مخطط البيانات",
+      "storage": "تخزين المخطط",
+      "stored": "المخططات المخزنة"
+    },
+    "search": {
+      "actions": "إجراءات",
+      "attributes": "السمات",
+      "byAttributes": "البحث بالسمات",
+      "byDate": "البحث بالتاريخ",
+      "byId": "البحث بالمعرف",
+      "byName": "البحث بالاسم",
+      "bySchemaId": "البحث بمعرف المخطط",
+      "byVersion": "البحث بالإصدار",
+      "createdAt": "تم الإنشاء في",
+      "credDefs": "بحث تعريفات الشهادة",
+      "name": "الاسم",
+      "schemas": "بحث المخططات",
+      "version": "الإصدار"
+    }
+  },
+  "connect": {
+    "acceptInvitation": {
+      "accept": "قبول الدعوة",
+      "invitation": "الدعوة",
+      "skipUrl": "تخطي عنوان URL واستخدام JSON",
+      "submit": "قبول",
+      "supportedUrl": "شكل عنوان URL المدعوم هو",
+      "supportedUrlEx": "http://<acapy_url>?{0}=<base64 encode>",
+      "url": "عنوان URL للدعوة"
+    },
+    "connections": {
+      "connections": "الاتصالات",
+      "delete": "حذف الاتصال",
+      "edit": "تعديل الاتصال",
+      "search": "بحث في الاتصالات"
+    },
+    "didExchange": {
+      "did": "DID",
+      "didExchange": "تبادل DID"
+    },
+    "edit": {
+      "lastUpdated": "تم تحديث الاتصال آخر مرة: {0}"
+    },
+    "invitation": {
+      "alias": "اسم مستعار للاتصال",
+      "close": "إغلاق",
+      "create": "إنشاء دعوة",
+      "goal": "الهدف",
+      "goalCode": "رمز الهدف",
+      "myLabel": "تسميتي",
+      "oobSettings": "إعدادات خارج النطاق الاختيارية",
+      "submit": "إرسال",
+      "type": "النوع",
+      "typeConnections": "الاتصالات",
+      "typeMultiUse": "دعوة متعددة الاستخدامات",
+      "typeOob": "خارج النطاق",
+      "typeSingleMulti": "دعوة مفردة/متعددة",
+      "typeSingleUse": "دعوة لمرة واحدة"
+    },
+    "invitations": {
+      "create": "إنشاء دعوة",
+      "invitations": "الدعوات",
+      "regenerate": "إعادة توليد الدعوة",
+      "search": "بحث في الدعوات"
+    },
+    "message": {
+      "messageConnection": "الدردشة مع {0}"
+    },
+    "table": {
+      "createdAt": "تم الإنشاء في",
+      "invitationMode": "وضع الدعوة",
+      "theirLabel": "تسميتهم"
+    }
+  },
+  "credentials": {
+    "exchanges": {
+      "exchanges": "تبادلات الشهادة",
+      "search": "بحث في تبادلات الشهادة",
+      "table": {
+        "connection": "الاتصال",
+        "credential": "الشهادة",
+        "lastUpdate": "آخر تحديث"
+      },
+      "viewCard": "عرض في شكل بطاقة",
+      "viewTable": "عرض في شكل جدول"
+    },
+    "wallet": {
+      "noOca": "لا توجد OCA مرتبطة بهذا تعريف الشهادة",
+      "noOcaNotImpl": "لا يمكن عرض شكل البطاقة للشهادات بدون OCA في الوقت الحالي.",
+      "notFound": "لا توجد شهادات في محفظتك"
+    }
+  },
+  "dashboard": {
+    "backToDashboard": "العودة إلى لوحة التحكم",
+    "dashboard": "لوحة التحكم",
+    "greeting": "مدعوم بواسطة Traction"
+  },
+  "holder": {
+    "holder": "الحامل"
+  },
+  "home": {
+    "dashboard": "لوحة التحكم",
+    "greeting": "مدعوم بواسطة Traction",
+    "login": {
+      "id": "معرف المحفظة",
+      "secret": "مفتاح المحفظة",
+      "submit": "تسجيل الدخول"
+    }
+  },
+  "httpStatus": {
+    "404": {
+      "code": "404",
+      "status": "الصفحة غير موجودة"
+    }
+  },
+  "issue": {
+    "attributes": "السمات*",
+    "connection": "الاتصال:",
+    "credentialDefinitionTag": "علامة تعريف الشهادة*",
+    "credentialFieldValues": "قيم حقول الشهادة",
+    "credentials": "الشهادات المصدرة/المقدمة",
+    "credentialValue": "قيمة الشهادة",
+    "delete": {
+      "confirm": "هل أنت متأكد أنك تريد حذف سجل تبادل الشهادة هذا؟",
+      "removeExchange": "إزالة سجل تبادل الشهادة",
+      "success": "تم حذف سجل تبادل الشهادة"
+    },
+    "id": "المعرف:",
+    "issuance": "الإصدار",
+    "offer": "عرض الشهادة",
+    "revocationEnabled": "تمكين الإلغاء",
+    "revocationId": "معرف الإلغاء:",
+    "revocationRegistry": "سجل الإلغاء:",
+    "revocationRegistrySize": "حجم سجل الإلغاء",
+    "revoke": {
+      "action": "إلغاء",
+      "comment": "تعليق اختياري",
+      "confirm": "هل أنت متأكد أنك تريد إلغاء هذه الشهادة؟",
+      "revokeCred": "إلغاء الشهادة",
+      "success": "تم إلغاء الشهادة"
+    },
+    "schema": "مخطط البيانات",
+    "schemaId": "معرف المخطط*",
+    "schemaName": "الاسم*",
+    "schemaVersion": "الإصدار*",
+    "version": "الإصدار:"
+  },
+  "layout": {
+    "header": {
+      "toggleSideMenu": "تبديل قائمة الجانب"
+    }
+  },
+  "login": {
+    "backToSignIn": "العودة إلى تسجيل الدخول",
+    "checkStatus": "تحقق من الحالة!",
+    "createRequest": "إنشاء طلب!",
+    "invalidCreds": "بيانات تسجيل الدخول غير صحيحة. يرجى المحاولة مرة أخرى.",
+    "noAccount": "ليس لديك حساب؟",
+    "submit": "تسجيل الدخول",
+    "submittedRequest": "لقد قمت بالفعل بتقديم طلب؟",
+    "walletSecret": "مفتاح المحفظة"
+  },
+  "messages": {
+    "connectionId": "معرف الاتصال",
+    "createMessage": "إنشاء رسالة",
+    "disclaimer": "ملاحظة: يحتوي هذا الجدول على سجلات تخزين الرسائل. للمحادثات حسب الاتصال، انظر صفحة 'الاتصالات'.",
+    "messageContent": "محتوى الرسالة",
+    "messages": "الرسائل"
+  },
+  "profile": {
+    "config": "التكوين:",
+    "connectionNotActiveYet": "الاتصال ليس نشطًا بعد، يرجى التحديث أو العودة بعد موافقة المؤيد على الطلب.",
+    "connectTenantToEndorser": "ربط المستأجر بالمؤيد",
+    "connectTenantToEndorserNotAllowed": "لم يسمح Innkeeper بوصلة المؤيدين.",
+    "connectToEndorserAndRegisterDID": "الاتصال بالمؤيد وتسجيل DID المقابل للسجل",
+    "contact": "البريد الإلكتروني للاتصال",
+    "createdAt": "تم الإنشاء في",
+    "didNotActiveApproved": "تمت الموافقة على تسجيل DID بواسطة المؤيد، تابع أعلاه.",
+    "didDidNotActiveYet": "موافقة تسجيل DID قيد الانتظار، يرجى التحديث أو العودة بعد موافقة المؤيد على الطلب.",
+    "endorserConnection": "اتصال المؤيد",
+    "endorserInfo": "معلومات المؤيد",
+    "imageUrl": "عنوان URL للصورة",
+    "issuer": "المصدر",
+    "name": "الاسم",
+    "noEndorserInfoFound": "لم يتم العثور على معلومات المؤيد، تم تعطيل الإصدار",
+    "pendingDidTx": "معاملة DID العامة المؤيدة قيد الانتظار",
+    "publicDid": "DID العامة",
+    "publicDidPending": "تم طلب DID العامة (في انتظار موافقة المؤيد)",
+    "registerPublicDid": "تسجيل DID عامة",
+    "registerPublicDidNotAllowed": "لم يسمح Innkeeper بتسجيل DID عامة.",
+    "state": "الحالة: {0}",
+    "taa": {
+      "accepted": "مقبول في",
+      "agreeAccept": "أوافق على شروط اتفاقية مؤلف المعاملة",
+      "mechanism": "الآلية",
+      "ratification": "التصديق:",
+      "requiredNo": "لا توجد اتفاقية مؤلف معاملة مطلوبة لهذا الدفتر.",
+      "requiredYes": "اتفاقية مؤلف المعاملة مطلوبة لهذا الدفتر.",
+      "reviewButton": "مراجعة/قبول TAA",
+      "taaAcceptance": "قبول TAA",
+      "taaDetails": "تفاصيل TAA",
+      "version": "إصدار TAA:"
+    },
+    "tenantId": "معرف المستأجر",
+    "tenantNotConnectedToEndorserYet": "لم يتم ربط المستأجر بالمؤيد بعد",
+    "token": "رمز JWT",
+    "updatedAt": "تم التحديث في",
+    "walletDids": "DID المحفظة",
+    "walletLabel": "تسمية المحفظة",
+    "webHookKey": "مفتاح WebHook",
+    "webhooks": "Webhooks",
+    "webHookUrl": "عنوان URL لـ WebHook",
+    "writeLedger": "السجل الحالي: {0}"
+  },
+  "qrCode": {
+    "noContentFound": "لم يتم العثور على محتوى"
+  },
+  "reservations": {
+    "alreadyComplete": "مكتمل بالفعل",
+    "approved!": "موافق عليه!",
+    "approved": {
+      "text": "تم إنشاء كلمة مرور تسجيل الوصول. تم إرسال بريد إلكتروني إلى {email}",
+      "title": "تمت الموافقة على الحجز",
+      "toast": "تمت الموافقة على الحجز لـ {email}"
+    },
+    "approveRequest": "الموافقة على الطلب",
+    "checkJunkFolder": "(يرجى التحقق من مجلد المهملات/الرسائل غير المرغوب فيها قبل الاتصال بنا، حيث من الشائع جدًا وجود مشاكل في تسليم البريد الإلكتروني بسبب مرشحات البريد الآلي.)",
+    "contactEmail": "البريد الإلكتروني للاتصال",
+    "contactPhone": "هاتف الاتصال",
+    "current": "الحالي",
+    "dateOccurred": "التاريخ الذي حدث فيه ذلك كان {0}",
+    "declined!": "مرفوض!",
+    "denied": {
+      "reasonText": "سبب الرفض (اختياري)",
+      "toast": "تم رفض الحجز لـ {email}"
+    },
+    "denyRequest": "رفض الطلب",
+    "emailSentTo": "تم أيضًا إرسال بريد إلكتروني إلى {0} مع رقم الحجز أدناه.",
+    "enterPassword": "يرجى إدخال كلمة مرور الحجز أدناه للتحقق من حسابك.",
+    "history": "السجل",
+    "incorrectEmailOrReservationId": "بريد إلكتروني أو معرف حجز غير صحيح. يرجى المحاولة مرة أخرى.",
+    "loadingCheckIn": "جارٍ تسجيل الوصول للحجز",
+    "otp": "تُعرض كلمة المرور أدناه مرة واحدة إذا كنت بحاجة إلى التواصل بها بوسائل أخرى",
+    "passwordAvailable": "كلمة مرور الحجز متاحة أدناه، يرجى استخدامها لإكمال تسجيل الوصول.",
+    "passwordValid48Hours": "كلمة مرور الحجز صالحة فقط لمدة 48 ساعة من الوقت الذي تم إرساله فيه إلى عنوان بريدك الإلكتروني.",
+    "pending!": "قيد الانتظار!",
+    "refreshed": {
+      "text": "تم إعادة إرسال كلمة مرور تسجيل الوصول إلى {email}",
+      "title": "تم تحديث كلمة المرور",
+      "toast": "تم تحديث كلمة المرور لـ {email}"
+    },
+    "refreshPassword": "تحديث كلمة المرور",
+    "requestDeclined": "نأسف لإبلاغك أنه قد تم رفض طلبك.",
+    "requestProcessingTime": "عادة ما يستغرق معالجة الطلب من 3-4 أيام عمل. شكرًا لصبرك.",
+    "requestReservedOn": "تم استلام طلبك في {0}",
+    "requests": "الطلبات",
+    "reservationHistory": "تاريخ الحجز",
+    "reservationId": "معرف الحجز",
+    "reservationPassword": "كلمة مرور الحجز",
+    "reservationPreviouslyCompleted": "تم إنجاز هذا الحجز بالفعل وتم إعطاء تفاصيل المحفظة.",
+    "reservations": "الحجوزات",
+    "reservationValidated": "تم التحقق من حجزك بنجاح.",
+    "resonForRejection": "سبب الرفض",
+    "saveWalletIdAndWalletKey": "يرجى حفظ معرف المحفظة ومفتاح المحفظة الجديدين في مكان آمن. ستفقد البيانات بمجرد إغلاق هذه النافذة أو الرجوع إلى تسجيل الدخول. لن نشارك هذه المعلومات عبر البريد الإلكتروني ولا نقوم بإصدارها مرة أخرى عند الطلب.",
+    "sentPasswordOn": "لقد أرسلنا كلمة مرور الحجز إلى عنوان بريدك الإلكتروني في {0}",
+    "submitNewRequest": "إذا كنت تعتقد أنه حدث خطأ، يمكنك تقديم طلب جديد مرة أخرى.",
+    "submitted": "تم تقديم طلبك بنجاح.",
+    "thankYou!": "شكرًا لك!",
+    "validated!": "تم التحقق!",
+    "walletIdAndWalletKey": "إليك معرف المحفظة ومفتاح المحفظة الجديد المرتبطين بعنوان البريد الإلكتروني المذكور أثناء التسجيل.",
+    "walletKey": "مفتاح المحفظة",
+    "walletKeyCannotBeRetrievedAgain": "لا يمكن استرجاع مفتاح المحفظة مرة أخرى بمجرد تزويده. إذا كنت تحتاج إلى محفظة جديدة، يمكنك العودة وبدء حجز جديد."
+  },
+  "reserve": {
+    "fullName": "الاسم الكامل",
+    "phone": "الهاتف / الجوال"
+  },
+  "serverConfig": {
+    "acapyVersion": "إصدار ACA-Py",
+    "expand": "عرض إعدادات خادم ACA-Py بالكامل",
+    "ledger": {
+      "default": "السجل الأساسي الافتراضي",
+      "ledgerDetails": "تفاصيل السجل",
+      "ledgerList": "قائمة السجلات",
+      "quickConnect": "اتصال سريع بـ endorser لواجهة مستخدم المستأجر"
+    },
+    "serverConfig": "إعدادات الخادم",
+    "storage": {
+      "multitenantWalletName": "اسم المحفظة متعددة المستأجرين",
+      "multitenantWalletType": "نوع المحفظة متعددة المستأجرين",
+      "title": "التخزين",
+      "walletStorageConfig": "إعداد تخزين المحفظة",
+      "walletStorageType": "نوع تخزين المحفظة",
+      "walletType": "نوع المحفظة"
+    },
+    "tenants": {
+      "reservation": "الحجز",
+      "reservationAutoApprove": "الموافقة التلقائية على الحجوزات",
+      "reservationAutoIssuer": "الموافقة التلقائية على الإصدار",
+      "reservationExpiry": "انتهاء صلاحية الحجز (دقائق)",
+      "reservationForm": "نموذج الحجز",
+      "reservationOidc": "يتطلب تسجيل الدخول عبر OIDC للحجز",
+      "title": "المستأجرين/الحجوزات",
+      "token": "انتهاء صلاحية الرمز"
+    },
+    "tenantUi": {
+      "expand": "عرض إعدادات واجهة مستخدم المستأجر بالكامل",
+      "oidc": "نقطة نهاية OIDC",
+      "sessionExpiry": "انتهاء صلاحية جلسة الواجهة الأمامية",
+      "sessionExpiryVal": "{0} ثانية (العد التنازلي: {1} ثانية)",
+      "showWrite": "عرض مكونات 'Write'",
+      "tenantUi": "واجهة مستخدم المستأجر"
+    },
+    "tractionProxy": "عنوان URL لوكيل Traction"
+  },
+  "session": {
+    "countdown": "سيتم تسجيل خروجك خلال {seconds} ثانية...",
+    "countdownHeader": "انتهاء جلسة العمل",
+    "timeoutHeader": " ",
+    "timeoutMessage": "انتهت جلستك بسبب عدم النشاط وتم تسجيل خروجك. يرجى إدخال معلومات تسجيل الدخول الخاصة بك مرة أخرى."
+  },
+  "status": {
+    "email": "أدخل عنوان بريدك الإلكتروني للطلب",
+    "reservationId": "أدخل معرف حجزك",
+    "submit": "التحقق من الحالة"
+  },
+  "tenant": {
+    "profile": {
+      "tenantProfile": "ملف المستأجر"
+    },
+    "settings": {
+      "acapyAutoAcceptInvites": "القبول التلقائي للدعوات",
+      "acapyAutoAcceptRequests": "القبول التلقائي للطلبات",
+      "acapyAutoPingConnection": "إرسال تنبيه تلقائيًا للاتصال",
+      "acapyAutoRequestEndorsement": "طلب التوقيع التلقائي",
+      "acapyAutoRespondCredentialOffer": "الرد تلقائيًا على عروض الشهادة",
+      "acapyAutoRespondCredentialRequest": "الرد تلقائيًا على طلبات الشهادة",
+      "acapyAutoRespondMessages": "الرد تلقائيًا على الرسائل",
+      "acapyAutoVerifyPresentation": "التحقق التلقائي من العروض",
+      "acapyAutoWriteTransactions": "كتابة المعاملات المؤيدة تلقائيًا",
+      "acapyCreateRevocationTransactions": "إنشاء معاملات الإلغاء",
+      "acapyEndorserRole": "دور المؤيد",
+      "acapyHelpAutoAcceptInvites": "ACAPY_AUTO_ACCEPT_INVITES - القبول التلقائي للدعوات دون إطلاق حدث Webhook أو الانتظار لطلب المدير.",
+      "acapyHelpAutoAcceptRequests": "ACAPY_AUTO_ACCEPT_REQUESTS - القبول التلقائي لطلبات الاتصال دون إطلاق حدث Webhook أو الانتظار لطلب المدير.",
+      "acapyHelpAutoPingConnection": "ACAPY_AUTO_PING_CONNECTION - إرسال تنبيه تلقائيًا فورًا بعد قبول استجابة الاتصال. بعض الوكلاء يتطلبون هذا قبل تصنيف الاتصال كـ 'نشط'",
+      "acapyHelpAutoRequestEndorsement": "ACAPY_AUTO_REQUEST_ENDORSEMENT - بالنسبة للمؤلفين، تحديد ما إذا كان يجب طلب التوقيع التلقائي لجميع المعاملات. (إذا لم يتم تحديده، يجب على المتحكم استدعاء عملية طلب التوقيع لكل معاملة.)",
+      "acapyHelpAutoRespondCredentialOffer": "ACAPY_AUTO_RESPOND_CREDENTIAL_OFFER - الرد تلقائيًا على عروض الشهادة Indy بطلب شهادة",
+      "acapyHelpAutoRespondCredentialRequest": "ACAPY_AUTO_RESPOND_CREDENTIAL_REQUEST - الرد تلقائيًا على طلبات الشهادة بالشهادات المقابلة",
+      "acapyHelpAutoRespondMessages": "ACAPY_AUTO_RESPOND_MESSAGES - الرد تلقائيًا على الرسائل الأساسية التي تشير إلى استلام الرسالة",
+      "acapyHelpAutoVerifyPresentation": "ACAPY_AUTO_VERIFY_PRESENTATION - التحقق تلقائيًا من العرض عند استلامه.",
+      "acapyHelpAutoWriteTransactions": "ACAPY_AUTO_WRITE_TRANSACTIONS - بالنسبة للمؤلفين، تحديد ما إذا كان يجب كتابة أي معاملات مؤيدة تلقائيًا. (إذا لم يتم تحديده، يجب على المتحكم استدعاء عملية كتابة المعاملة لكل معاملة.)",
+      "acapyHelpCreateRevocationTransactions": "ACAPY_CREATE_REVOCATION_TRANSACTIONS - بالنسبة للمؤلفين، تحديد ما إذا كان يجب إنشاء معاملات تلقائيًا لسجل إلغاء تعريف الشهادة. (إذا لم يتم تحديده، يجب على المتحكم استدعاء نقاط النهاية المطلوبة لإنشاء سجل الإلغاء وتعيينه لتعريف الشهادة.)",
+      "acapyHelpEndorserRole": "ACAPY_ENDORSER_ROLE - تحديد الدور ('مؤلف' أو 'مؤيد') الذي سيشارك فيه هذا الوكيل. سيطلب المؤلفون توقيع المعاملات من المؤيد. سيؤيد المؤيدون المعاملات من المؤلفين، وقد يكتبون مع معاملاتهم الخاصة إلى السجل. إذا لم يتم تحديد دور (أو 'لا شيء')، فلن يتم استخدام بروتوكول التوقيع ولن يكتب هذا الوكيل المعاملات إلى السجل مباشرة.",
+      "acapyHelpInvitePublic": "ACAPY_INVITE_PUBLIC - علم يحدد ما إذا كان يجب أن تكون الدعوة المولدة عامة.",
+      "acapyHelpLogLevel": "ACAPY_LOG_LEVEL - تحديد مستوى تسجيل مخصص.",
+      "acapyHelpMonitorPing": "ACAPY_MONITOR_PING - إرسال Webhook عند إرسال أو استلام تنبيه.",
+      "acapyHelpNotifyRevocation": "ACAPY_NOTIFY_REVOCATION - يحدد أن aca-py ستقوم بإخطار مستلمي الشهادة عند إلغاء شهادة أصدرتها.",
+      "acapyHelpPublicInvites": "ACAPY_PUBLIC_INVITES - إرسال الدعوات باستخدام DID العامة للوكيل، واستقبال طلبات الاتصال المستقبلة من الدعوات التي تستخدم DID العامة.",
+      "acapyInvitePublic": "يجب أن تكون الدعوة المولدة عامة",
+      "acapyLogLevel": "مستوى التسجيل",
+      "acapyMonitorPing": "مراقبة التنبيه",
+      "acapyNotifyRevocation": "إخطار بالإلغاء",
+      "acapyPublicInvites": "إرسال الدعوات باستخدام DID العامة",
+      "auto": "الأعلام التلقائية",
+      "extraSettings": "إعدادات ACA-Py إضافية",
+      "tenantWalletSettings": "إعدادات محفظة المستأجر"
+    }
+  },
+  "tenants": {
+    "checkIn": "تسجيل وصول المستأجر",
+    "search": "بحث في المستأجرين",
+    "settings": {
+      "canBecomeIssuer": "يمكن للمستأجر أن يصبح مصدرًا، أي الاتصال بالمؤيد وتسجيل DID",
+      "canConnectEndorser": "مسموح للمستأجر بالاتصال بالمؤيد",
+      "canRegisterDid": "مسموح للمستأجر بتسجيل DID عامة",
+      "confirmDeletion": "للتأكيد، اكتب \"{tenantName}\" في المربع أدناه",
+      "confirmDeletionIncorrect": "اسم المستأجر غير صحيح. يرجى تأكيد الاسم الصحيح قبل الحذف.",
+      "confirmDeletionSuccess": "تم تمييز المستأجر {0} بنجاح كـ {1}",
+      "deleted": "محذوف",
+      "deleteTenant": "تعليق المستأجر",
+      "editSettings": "تعديل إعدادات المستأجر",
+      "enableLedgerSwitch": "يمكن للمستأجر تغيير المؤيد/السجل",
+      "endorserAlias": "اسم مستعار للمؤيد:",
+      "ledgerName": "اسم السجل:",
+      "permanentDelete": "الحذف الدائم",
+      "restoreConfirm": "استعادة المستأجر {0}",
+      "restoreSuccess": "تم استعادة المستأجر {0} بنجاح",
+      "restoreTenant": "استعادة المستأجر",
+      "softDelete": "تعليق المستأجر",
+      "success": "تم تحديث إعدادات المستأجر",
+      "suspended": "معلق",
+      "tenantDeletionWarning": ": سيؤدي ذلك إلى حذف جميع البيانات المرتبطة بهذا المستأجر."
+    },
+    "tenants": "المستأجرين"
+  },
+  "verifier": {
+    "attributeRestrictionsSatisfied": "تم تلبية جميع قيود السمات",
+    "comingSoon": "قريبًا",
+    "contactAlias: ": "اسم مستعار للاتصال:",
+    "credentialHeldBy": "الشهادة مملوكة بواسطة",
+    "credentialTamperFree ": "الشهادة غير معدلة",
+    "credentialValid": "الشهادة صالحة",
+    "presentationShouldHaveStatus": "هذه ليست المكون الذي تبحث عنه، يجب أن يكون العرض بحالة='مُحقق'",
+    "status: ": "الحالة:",
+    "updatedAt": "تم التحديث في",
+    "verifications": "التحقق"
+  },
+  "verify": {
+    "autoVerify": "التحقق التلقائي",
+    "autoVerifyHelp": "خيار المحقق للتحقق التلقائي من عرض الإثبات",
+    "comment": "تعليق اختياري",
+    "connection": "الاتصال",
+    "copyRequest": "نسخ طلب العرض الحالي",
+    "createRequest": "إنشاء طلب عرض",
+    "delete": "حذف سجل تبادل العرض",
+    "deleteConfirmation": "هل أنت متأكد أنك تريد حذف سجل تبادل العرض هذا؟",
+    "deleteSuccess": "تم حذف سجل تبادل العرض بنجاح",
+    "presentationRequestBody": "طلب الإثبات",
+    "verification": "التحقق",
+    "verifications": "التحققات"
+  }
+}
