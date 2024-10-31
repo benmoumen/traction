@@ -37,9 +37,7 @@ describe('LoginForm', async () => {
 
     //Images from path
     expect(wrapper.html()).toContain('src="/img/unctad/unctad_logo.webp"');
-    expect(wrapper.html()).toContain(
-      'src="/img/logo/traction-logo-bc-text.svg"'
-    );
+    expect(wrapper.html()).toContain('src="/img/logo/logo.png"');
   });
 
   test('when login mode is preset to STATUS render status component', async () => {

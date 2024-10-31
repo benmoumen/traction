@@ -3,12 +3,8 @@
     <div class="col-12 md:col-6 xl:col-4">
       <div class="px-8">
         <div class="pt-4 pb-6">
-          <img src="/img/unctad/unctad_logo.webp" class="logo-bc" />
 
-          <img
-            src="/img/logo/traction-logo-bc-text.svg"
-            class="logo-traction"
-          />
+          <img src="/img/logo/logo.png" class="logo-traction" />
         </div>
 
         <!-- Logging In -->
@@ -119,6 +115,7 @@ import { storeToRefs } from 'pinia';
 import { useConfigStore, useReservationStore, useOidcStore } from '@/store';
 
 import { RESERVATION_STATUSES } from '@/helpers/constants';
+import LocaleSwitcher from './common/LocaleSwitcher.vue';
 
 const reservationStore = useReservationStore();
 const { config } = storeToRefs(useConfigStore());
@@ -168,6 +165,7 @@ const doGoBack = () => {
 // See layout.scss for generalized common login layout stuff
 // Set the image specific to this component here though
 .cover-image {
-  background-image: url('/img/default-login-image.jpg');
+  background-image: url('/img/image.png');
+  background-position: center;
 }
 </style>

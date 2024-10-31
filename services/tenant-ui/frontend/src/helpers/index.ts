@@ -1,17 +1,19 @@
 import { Locale, format, fromUnixTime, parseJSON } from 'date-fns';
-import { enCA, fr, ja } from 'date-fns/locale';
+import { ar, enUS, es, fr } from 'date-fns/locale';
 import i18n from '@/plugins/i18n/i18n';
 
-export type I18nLocale = 'en' | 'fr' | 'ja';
+export type I18nLocale = 'en' | 'es' | 'fr' | 'ar';
 
 function i18n2DateLocale(i18nLocale: I18nLocale): Locale {
   switch (i18nLocale) {
     case 'en':
-      return enCA;
+      return enUS;
     case 'fr':
       return fr;
-    case 'ja':
-      return ja;
+    case 'es':
+      return es;
+    case 'ar':
+      return ar;
   }
   // This way we can fall back to a default while using typescript to
   // enforce that all instances of i18nLocale have a corresponding case in the
@@ -32,9 +34,9 @@ function _dateFnsFormat(value: string, formatter: string) {
       } catch {
         // Incase the locale was never set (used outside of a vue component)
         console.log(
-          `No valid translation found for ${locale.value} defaulting to enCA`
+          `No valid translation found for ${locale.value} defaulting to enUS`
         );
-        return format(parseJSON(value), formatter, { locale: enCA });
+        return format(parseJSON(value), formatter, { locale: enUS });
       }
     }
   } catch (error) {
