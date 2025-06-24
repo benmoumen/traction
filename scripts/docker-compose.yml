@@ -1,4 +1,3 @@
-version: "3.12"
 services:
   # ngrok-traction-agent:
   #   image: ngrok/ngrok
@@ -95,7 +94,7 @@ services:
       - host.docker.internal:host-gateway
 
   traction-db:
-    image: "postgres:14.5"
+    image: "postgres:15"
     environment:
       - POSTGRES_USER=${POSTGRESQL_USER}
       - POSTGRES_PASSWORD=${POSTGRESQL_PASSWORD}
@@ -123,7 +122,9 @@ services:
         condition: service_started
     environment:
       - SERVER_TRACTION_URL=${SERVER_TRACTION_URL}
+      - SERVER_LOKI_URL=${SERVER_LOKI_URL}
       - FRONTEND_TENANT_PROXY_URL=${FRONTEND_TENANT_PROXY_URL}
+      - FRONTEND_LOG_STREAM_URL=${FRONTEND_LOG_STREAM_URL}
       - IMAGE_BUILDTIME=${IMAGE_BUILDTIME}
       - IMAGE_TAG=${IMAGE_TAG}
       - IMAGE_VERSION=${IMAGE_VERSION}
@@ -164,7 +165,7 @@ services:
       - host.docker.internal:host-gateway
 
   endorser-agent:
-    image: ghcr.io/openwallet-foundation/acapy-agent:py3.12-1.1.0
+    image: ghcr.io/openwallet-foundation/acapy-agent:py3.12-1.3.0
     depends_on:
       endorser-db:
         condition: service_healthy
@@ -192,9 +193,6 @@ services:
         --admin '0.0.0.0' ${ACAPY_ENDORSER_ADMIN_PORT} \
         --label '${ENDORSER_AGENT_NAME}' \
         ${ENDORSER_ACAPY_ADMIN_CONFIG} \
-        ${ENDORSER_ACAPY_READ_ONLY_MODE} \
-        --endorser-protocol-role endorser \
-        --auto-endorse-transactions \
         ",
       ]
     environment:
@@ -205,7 +203,7 @@ services:
       - host.docker.internal:host-gateway
 
   endorser-agent-1:
-    image: ghcr.io/openwallet-foundation/acapy-agent:py3.12-1.1.0
+    image: ghcr.io/openwallet-foundation/acapy-agent:py3.12-1.3.0
     depends_on:
       endorser-db:
         condition: service_healthy
@@ -233,9 +231,6 @@ services:
         --admin '0.0.0.0' ${ACAPY_ENDORSER_1_ADMIN_PORT} \
         --label '${ENDORSER_AGENT_NAME}' \
         ${ENDORSER_ACAPY_ADMIN_CONFIG} \
-        ${ENDORSER_ACAPY_READ_ONLY_MODE} \
-        --endorser-protocol-role endorser \
-        --auto-endorse-transactions \
         ",
       ]
     environment:
@@ -246,7 +241,7 @@ services:
       - host.docker.internal:host-gateway
 
   endorser-db:
-    image: "postgres:14.5"
+    image: "postgres:15"
     environment:
       - POSTGRES_USER=${POSTGRESQL_USER}
       - POSTGRES_PASSWORD=${POSTGRESQL_PASSWORD}

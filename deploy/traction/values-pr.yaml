@@ -11,7 +11,8 @@ acapy:
       walletkey: "change-me"
       tenantid: "innkeeper"
   argfile.yml:
-    wallet-name: default
+    tails-server-base-url: https://tails-dev.vonx.io
+    tails-server-upload-url: https://tails-dev.vonx.io
   ledgers.yml:
     - id: unctad-indy-test
       is_production: true
@@ -29,6 +30,14 @@ acapy:
       genesis_url: "https://raw.githubusercontent.com/sovrin-foundation/sovrin/stable/sovrin/pool_transactions_sandbox_genesis"
       endorser_did: "EZpKx6nT56Hv83JmNz7ik8"
       endorser_alias: "sovrin-testnet-endorser"
+  plugins:
+    basicmessageStorage: true
+    connections: true
+    connectionUpdate: true
+    multitenantProvider: true
+    tractionInnkeeper: true
+    rpc: true
+    webvh: true
   plugin-config.yml:
     traction_innkeeper:
       innkeeper_wallet:
@@ -45,7 +54,6 @@ acapy:
         auto_issuer: true
   resources:
     limits:
-      cpu: 200m
       memory: 300Mi
     requests:
       cpu: 120m
@@ -80,6 +88,7 @@ ui:
     authority: https://dev.loginproxy.gov.bc.ca/auth/realms/digitaltrust-citz
     jwksUri: https://dev.loginproxy.gov.bc.ca/auth/realms/digitaltrust-citz/protocol/openid-connect/certs
     extraQueryParams: '{"kc_idp_hint":"idir"}'
+    label: "IDIR"
     reservationForm: >-
       {
         "formDataSchema": {
@@ -128,7 +137,6 @@ ui:
     innkeeperInbox: lucas.o'neil@gov.bc.ca
   resources:
     limits:
-      cpu: 300m
       memory: 128Mi
     requests:
       cpu: 10m
@@ -149,7 +157,6 @@ postgresql:
   primary:
     resources:
       limits:
-        cpu: 200m
         memory: 128Mi
       requests:
         cpu: 100m

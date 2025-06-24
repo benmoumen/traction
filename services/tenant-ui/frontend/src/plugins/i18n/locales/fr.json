@@ -576,5 +576,8 @@
     "presentationRequestBody": "Demande de preuve",
     "verification": "Vérification",
     "verifications": "Vérifications"
+  },
+  "log": {
+    "log": "Log"
   }
 }
